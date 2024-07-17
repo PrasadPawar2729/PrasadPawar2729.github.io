@@ -1,6 +1,6 @@
 import React from "react";
 import Recipe from "../assets/recipe.png";
-import Shop from "../assets/shopcart.png";
+import Shop from "../assets/shopCart.png";
 import Travel from "../assets/travel&tour.png";
 import Stay from "../assets/staybnb.png";
 import Boat from "../assets/boat.png";
