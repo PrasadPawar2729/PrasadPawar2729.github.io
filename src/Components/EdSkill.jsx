@@ -3,7 +3,7 @@ import { FaBootstrap, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 import { SiExpress, SiFigma, SiGit, SiGithub, SiJavascript, SiNodedotjs, SiRedux, SiTailwindcss } from 'react-icons/si'
 
 const EdSkill = () => {
-
+// skill 
     const skills = [
         {
             id: 1,
