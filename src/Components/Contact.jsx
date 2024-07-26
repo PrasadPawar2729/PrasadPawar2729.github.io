@@ -61,7 +61,7 @@ const Contact = () => {
   return (
     <div
       name="Contact"
-      className="w-full sm:h-screen bg-gradient-to-b from-gray-800 to-black text-white p-4 pt-24"
+      className="w-full sm:h-screen bg-gradient-to-b from-gray-900 to-black text-white p-4 pt-24"
     >
       <div className=" md:hidden flex justify-center items-center bottom-[35%]">
         <ul className="flex justify-center items-center">
@@ -90,13 +90,19 @@ const Contact = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
-
+       
+          <p className="text-gray-400 mt-5">
+            Mobile: <span className="text-orange-500">+91 82618 37163</span>
+          </p>
+          <p className="text-gray-400 mt-1">
+            Email: <span className="text-orange-500">prasadp7163@gmail.com</span>
+          </p>
           <p className="py-2">Submit the form below to get in touch with me</p>
         </div>
 
         <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/74887d40-7817-4562-9fff-f7bcebb5b9e0"
+            action="https://getform.io/f/bejyewla"
             method="POST"
             className="flex flex-col w-full md:w-3/3"
           >
@@ -125,10 +131,9 @@ const Contact = () => {
               Let's talk
             </button>
           </form>
+          
         </div>
       </div>
-
-      <div></div>
     </div>
   );
 };

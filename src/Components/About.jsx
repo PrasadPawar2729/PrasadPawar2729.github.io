@@ -4,15 +4,15 @@ const About = () => {
   return (
     <div
       name="About"
-      className="w-full sm:h-screen bg-gradient-to-b py-[15%] from-gray-800 to-black text-white"
+      className=" w-full sm:h-screen bg-gradient-to-b py-[15%] from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className=" sm:mt-10">
+        <div className=" sm:mt-5">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-        <p className="text-xl mt-20">
+        <p className="text-xl mt-10">
           I'm{" "}
           <span className="text-orange-400 text-1xl">Full Stack Developer</span>{" "}
           from Maharashtra, India, I build apps with a focus on{" "}
@@ -22,9 +22,6 @@ const About = () => {
           I enjoy turning complex problems into simple, beautiful and intuitive
           designs. A Software Engineer, who loves to solve problems.
         </p>
-
-        <br />
-
         <p className="text-xl">
           I am having an experience of building high-performing, responsive,
           beautiful web applications to deliver a unique, intuitive user

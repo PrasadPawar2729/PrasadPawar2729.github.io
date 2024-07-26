@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
-import { FaArrowRight } from "react-icons/fa";
 import Hero from '../assets/hero3.jpeg'
 const Home = () => {
   return (
@@ -29,17 +27,14 @@ const Home = () => {
           </p>
 
           <div>
-            <Link
-              to="Projects"
-              smooth
-              duration={500}
-              className="w-fit text-white px-6 py-3 my-2 flex items-center cursor-pointer rounded-md bg-gradient-to-r from-purple-700 to-orange-600 font-bold"
-            >
-              Projects
-              <span className="hover:rotate-90 duration-500">
-                <FaArrowRight size={20} className="ml-2" />
-              </span>
-            </Link>
+          <a
+  href="https://drive.google.com/file/d/17uJe1igvR59n7lxBBmmaXqM7sIoo_W9G/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-fit text-white px-6 py-3 my-2 flex items-center cursor-pointer rounded-md bg-gradient-to-r from-purple-700 to-orange-600 font-bold"
+>
+  Resume
+</a>
           </div>
         </div>
 

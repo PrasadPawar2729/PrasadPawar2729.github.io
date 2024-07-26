@@ -142,13 +142,13 @@ const EdSkill = () => {
     ]
 
     return (
-        <div name="Experience" className="w-full sm:h-screen md:h-screen sm:py-[40%] pt-[15%] bg-gradient-to-b from-gray-800 to-black text-white">
+        <div name="Tech-Skill" className=" w-full sm:h-screen md:h-screen sm:py-[50%] pt-[15%] bg-gradient-to-b from-gray-800 to-black text-white">
 
-            <div className="max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full text-white">
+            <div className="mt-16 max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full text-white">
 
-                <div className="pb-1">
-                    <p className="text-4xl font-bold inline border-b-4 p-2 border-gray-500">
-                        Experience
+                <div className="pb-1 ">
+                    <p className=" text-4xl font-bold inline border-b-4 p-2 border-gray-500">
+                    Tech-Skill
                     </p>
                     <p className="p-6">
                         These are the technologies I've worked with
