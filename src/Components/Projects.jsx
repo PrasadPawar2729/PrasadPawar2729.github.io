@@ -4,8 +4,6 @@ import { SiMongodb, SiExpress, SiChakraui, SiJavascript } from "react-icons/si";
 import Recipe from "../assets/recipe.png";
 import Shop from "../assets/shopCart.png";
 import Travel from "../assets/travel&tour.png";
-import Stay from "../assets/staybnb.png";
-import Boat from "../assets/boat.png";
 import Art from "../assets/art.png";
 
 const techLogos = {
@@ -55,22 +53,6 @@ const Projects = () => {
       description: "An online art gallery to showcase artworks.",
       techSkills: ["React", "Chakra UI","MongoDB"],
     },
-    {
-      id: 5,
-      image: Boat,
-      demoLink: "https://github.com/aakhtar10/algorithm_genius",
-      codeLink: "https://github.com/aakhtar10/algorithm_genius",
-      description: "A boat rental and management system.",
-      techSkills: ["HTML", "CSS", "Bootstrap"],
-    },
-    {
-      id: 6,
-      image: Stay,
-      demoLink: "https://github.com/tashwini-p/StayBnB?tab=readme-ov-file",
-      codeLink: "https://github.com/tashwini-p/StayBnB",
-      description: "A platform for booking vacation rentals.",
-      techSkills: ["JavaScript", "Bootstrap", "CSS", "HTML"],
-    },
   ];
 
   return (
@@ -78,8 +60,8 @@ const Projects = () => {
       name="Projects"
       className=" bg-gradient-to-b from-black to-gray-800 pt-[20%] w-full sm:h-screen md:h-screen text-white"
     >
-      <div className="pb-20 max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-16 ">
+      <div className="pb-20 mt-16 max-w-screen-lg p-2 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8  ">
           <p className="  text-4xl font-bold inline border-b-4 border-gray-500">
             Projects
           </p>
@@ -87,7 +69,7 @@ const Projects = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">
           {projects.map(({ id, image, demoLink, codeLink, description, techSkills }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <a href={demoLink} target="_blank" rel="noopener noreferrer">
