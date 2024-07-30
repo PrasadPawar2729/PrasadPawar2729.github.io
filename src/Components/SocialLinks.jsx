@@ -36,6 +36,14 @@ const SocialLinks = () => {
             link: "mailto:prasadp7163@gmail.com"
         },
         {
+            // id: 4,
+            // color: "bg-blue-500",
+            // child: (
+            //     <>
+            //         Twitter <FaTwitter size={30} className="ml-2 text-white" />
+            //     </>
+            // ),
+            // link: "https://x.com/prasadp03829681?t=M7xjN8JiXD9B6YSNA5Bq-w&s=08"
             id: 4,
             color: "bg-blue-500",
             child: (
@@ -43,7 +51,7 @@ const SocialLinks = () => {
                     Twitter <FaTwitter size={30} className="ml-2 text-white" />
                 </>
             ),
-            link: "#"
+            link: "https://x.com/prasadp03829681?t=M7xjN8JiXD9B6YSNA5Bq-w&s=08"
         },
         {
             id: 5,

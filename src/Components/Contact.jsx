@@ -44,7 +44,7 @@ const Contact = () => {
           <FaTwitter size={30} className="ml-2 text-white" />
         </>
       ),
-      link: "#",
+      link: "https://x.com/prasadp03829681?t=M7xjN8JiXD9B6YSNA5Bq-w&s=08",
     },
     {
       id: 5,
